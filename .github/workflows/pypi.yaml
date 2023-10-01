@@ -11,7 +11,7 @@ permissions:
 jobs:
   pypi-publish:
     name: Publish Python Package to PyPI
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     environment:
       name: pypi
       url: https://test.pypi.org/project/aprint
